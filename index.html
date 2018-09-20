@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Navigate Affordable Housing</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+	 <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<div class="hidden-nav"><img src="img/hidden-nav.png" width="1440" height="91" alt=""/></div>
+<div id="container">
+<div class="mega-menu">	<img src="img/mega menu.png" width="1440" height="587" alt=""/> </div>
+  <div class="top-header"><img src="img/header-top.png"  alt=""/></div>
+<div class="hero">
+<div class="navigation wow slideInDown" ><img src="img/header-nav.png" width="1440" height="91" alt=""/></div>	
+<div  class="hero-logo wow slideInLeft" data-wow-duration="1s"><img src="img/hero-logo.png" width="422" height="264" alt=""/></div>	
+  </div>
+<div class="intro-text wow slideInUp"><img src="img/intro-text.png" width="1004" height="320" alt=""/></div>
+<div class="services"><img src="img/consulting.png" width="289" height="203" class="wow fadeInUp" data-wow-duration=".3s" /><img src="img/management.png" width="289" height="205" class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".3s"/><img src="img/pbra.png" width="289" height="203" class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".3s"/><img src="img/compliance.png" width="286" height="205" class="wow fadeInUp" data-wow-delay=".9s" data-wow-duration=".3s"/><img src="img/training.png" width="289" height="203"class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration=".3s" /></div>	
+  <div class="scary">
+	<div class="scary-text  wow slideInLeft" data-wow-delay="1.5s"><img src="img/uncertainty-text.png" width="720" height="659" alt=""/></div>
+  </div>
+  <div class="service-desc">
+<img src="img/services-description.png" width="1334" height="1062" class=" wow fadeIn" />
+  </div>
+	
+	
+<div id="consulting">
+	<div class="left-side wow slideInLeft"><img src="img/consulting-image.png" width="720" height="483" alt=""/></div>
+	<div class="right-side wow slideInRight"><img src="img/consulting-text.png" width="726" height="483" alt=""/></div>
+	
+  </div>
+	
+	
+	<img src="img/news-articles.png" width="1440" height="659" alt="" class="wow fadeIn"/>
+	<div id="events-calendar">
+	  <img src="img/events-calendar.png" width="383" height="44" alt=""/>
+<div id="dates">
+  <div class="left-side wow slideInLeft"><img src="img/events-list-left.png" width="579" height="493" alt=""/></div>
+	<div class="right-side wow slideInRight"><img src="img/events-list-right.png" width="579" height="493" alt=""/></div>
+	<img src="img/calendar-view-button.png" width="186" height="41" alt="" class="calendar-view"/> </div>
+	</div>
+	
+	
+<div id="affordable">
+	<div class="left-side wow slideInLeft"><img src="img/national-leader.png" width="720" height="483" alt=""/></div>
+	<div class="right-side wow slideInRight"><img src="img/family-image.png" width="720" height="483" alt=""/></div>
+	
+  </div>		
+<img src="img/footer.png" width="1440" height="343" alt=""/> </div>
+</body>
+	<script src="js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	 <script>
+jQuery(window).scroll(function() {    
+    var scroll = jQuery(window).scrollTop();
+if (scroll >= 450) {
+ jQuery(".hidden-nav").addClass("visible");
+  
+ } else {
+ jQuery(".hidden-nav").removeClass("visible");
+}
+});
+</script>
+	<script>
+jQuery(document).ready(function($){
+
+$('.navigation img, .mega-menu').on('click', function () {
+    $(".mega-menu").toggleClass('show-mega')
+});
+});
+</script>
+	
+</html>
