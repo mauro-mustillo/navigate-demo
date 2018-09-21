@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Navigate Affordable Housing</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+	 <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<div class="hidden-nav demo2"><img src="img2/fixed-menu.png" width="1440" height="105" alt=""/></div>
+<div id="container">
+<div class="mega-menu">	<img src="img/mega menu.png" width="1440" height="587" alt=""/> </div>
+
+<div class="hero-2">
+<div class="navigation wow slideInDown" ><img src="img2/top-menu.png" width="1365" height="60" alt=""/></div>	
+<div  class="hero-logo wow fadeIn" data-wow-duration="1s"><img src="img2/navigate-logo.png" width="567" height="462" alt=""/></div>	
+  </div>
+<div class="intro-text wow slideInUp"><img src="img2/intro-text.png" width="1004" height="320" alt=""/></div>
+<div class="intro-text wow zoomIn"><img src="img2/services-listing.png" width="1440" height="975" alt="" class=""/></div>
+ 
+ <div class="blog-title wow fadeIn"> <img src="img2/latest-new-and-articles.png" width="636" height="37" alt=""/></div>
+ <div class="blog-1 wow fadeIn"> <img src="img2/blog1.png" width="1272" height="320" alt=""/></div>
+<div class="blog-2 wow fadeIn"><img src="img2/blog2.png" width="1280" height="320" alt=""/></div>
+	
+ <div class="blog-cta wow fadeIn"> <img src="img2/visit-our-blog.png" width="252" height="45" alt=""/></div>
+<div id="consulting-2">
+	<div class="left-side wow slideInLeft"><img src="img2/consulting-text.png" width="651" height="467" alt=""/></div>
+	<div class="right-side wow slideInRight"></div>
+	
+  </div>
+
+<div id="events-calendar">
+   <img src="img2/events-calendar.png" width="478" height="36" alt=""/>
+<div id="dates-2">
+  <img src="img2/event1.png" width="358" height="467" alt="" class="wow zoomIn"/><img src="img2/event2.png" width="358" height="467" alt="" class="wow zoomIn" data-wow-delay=".5s"/><img src="img2/event3.png" width="358" height="467" alt="" class="wow zoomIn" data-wow-delay="1s"/> </div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img src="img2/view-all-events.png" width="252" height="45" alt=""/></p>
+</div>
+	
+	
+		
+<img src="img2/footer.png" width="1440" height="424" alt=""/></div>
+</body>
+	<script src="js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	 <script>
+jQuery(window).scroll(function() {    
+    var scroll = jQuery(window).scrollTop();
+if (scroll >= 450) {
+ jQuery(".hidden-nav").addClass("visible");
+  
+ } else {
+ jQuery(".hidden-nav").removeClass("visible");
+}
+});
+</script>
+	<script>
+jQuery(document).ready(function($){
+
+$('.navigation img, .mega-menu').on('click', function () {
+    $(".mega-menu").toggleClass('show-mega')
+});
+});
+</script>
+	
+</html>

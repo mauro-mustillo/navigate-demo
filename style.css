@@ -49,15 +49,35 @@ table {
 #container img {max-width: 100%}
 .top-header {margin:0px; background-color:#000 }
 .hero {
-    height: 100vh;position: relative;
-    width: 100%; 
+    height: 100vh;
+    position: relative;
+    width: 100%;
     background-image: url(img/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.hero-logo {margin-left: 10%; margin-top: 15%; position: absolute; width: 422px; height: 264px}
+.hero-2 {
+    height: 100vh;position: relative;
+    width: 100%; 
+    background-image: url(img2/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-logo {margin-left: 10%; margin-top: 15%; position: absolute; width: 567px; height: 462px}
+.demo2 {background-color: #022D47!important}
+.hero-2 .hero-logo {
+  left: 20%; margin-top: 10%;
+
+}
+.blog-title, .blog-1, .blog-2 {width: 100%; text-align: center}
+.blog-title {padding: 100px}
+.blog-2 {padding: 75px 0px}
+.blog-cta {padding-bottom: 0px; width: 100%; text-align: center}
+
 .hidden-nav {z-index: 100; margin:auto; position: absolute;; margin-top: -100px;  width: 100%; background-color: #175B88; transition: all .3s; text-align: center}
 .hidden-nav img {margin: auto}
+.navigation {text-align: center}
+.navigation img { margin: auto; margin-top: 10px;}
 .visible {margin-top:0px; position: fixed; transition: all .3s;  }
 .intro-text {text-align: center; margin-top: 100px}
 .services {white-space: nowrap; margin-top: 100px}
@@ -71,12 +91,25 @@ table {
 
 .show-mega {opacity: 1}
 #consulting {width: 100%; white-space: nowrap; display: block; clear: both; float: none; height: 483px}
+#consulting-2 {
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+    clear: both;
+    float: none; padding-top: 150px;
+    height: 665px; margin-bottom: -75px;
+    background-image: url(img2/consulting-image.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
 .left-side, .right-side {width: 50%}
 .right-side {float:right}
 .left-side {float:left}
 #dates {margin-top: 100px}
+#dates-2 {margin-top: 75px; text-align: center; }
+#dates-2 img {margin: 20px}
 .left-side img, .right-side img {max-width: 100%}
-.calendar-view {margin-top: 50px}
+.calendar-view {margin-top: 100px}
 #affordable {display: block; clear: both; float: none; }
 #events-calendar {margin: auto; width: 100%; text-align: center; display: block!important; padding: 100px 0px 75px 0px}
 /*!
